@@ -12,6 +12,7 @@
 		BF27E6CB22A9AEE400A22BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6C922A9AEE400A22BC5 /* Main.storyboard */; };
 		BF27E6CD22A9AEE600A22BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6CC22A9AEE600A22BC5 /* Assets.xcassets */; };
 		BF27E6D022A9AEE600A22BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6CE22A9AEE600A22BC5 /* LaunchScreen.storyboard */; };
+		BF6A014222AB141E00370E0D /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A014122AB141E00370E0D /* Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF27E6CC22A9AEE600A22BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF27E6CF22A9AEE600A22BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF27E6D122A9AEE600A22BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6A014122AB141E00370E0D /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,12 @@
 		BF27E6C422A9AEE400A22BC5 /* Blog Example Version Info */ = {
 			isa = PBXGroup;
 			children = (
-				BF6A013C22AB0CDC00370E0D /* Config, Assets, and Launch */,
-				BF6A013D22AB0CEA00370E0D /* View Controllers */,
+				BF6A014022AB141000370E0D /* Extensions */,
 				BF6A013B22AB0CBE00370E0D /* Storyboards */,
+				BF6A013D22AB0CEA00370E0D /* View Controllers */,
+				BF27E6C522A9AEE400A22BC5 /* AppDelegate.swift */,
+				BF27E6CC22A9AEE600A22BC5 /* Assets.xcassets */,
+				BF27E6D122A9AEE600A22BC5 /* Info.plist */,
 			);
 			path = "Blog Example Version Info";
 			sourceTree = "<group>";
@@ -70,22 +75,20 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		BF6A013C22AB0CDC00370E0D /* Config, Assets, and Launch */ = {
-			isa = PBXGroup;
-			children = (
-				BF27E6C522A9AEE400A22BC5 /* AppDelegate.swift */,
-				BF27E6CC22A9AEE600A22BC5 /* Assets.xcassets */,
-				BF27E6D122A9AEE600A22BC5 /* Info.plist */,
-			);
-			path = "Config, Assets, and Launch";
-			sourceTree = "<group>";
-		};
 		BF6A013D22AB0CEA00370E0D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				BF27E6C722A9AEE400A22BC5 /* MainViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BF6A014022AB141000370E0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A014122AB141E00370E0D /* Bundle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +100,7 @@
 			buildPhases = (
 				BF27E6BE22A9AEE400A22BC5 /* Sources */,
 				BF27E6BF22A9AEE400A22BC5 /* Frameworks */,
+				BF6A014322AB154C00370E0D /* Show Version on LaunchScreen */,
 				BF27E6C022A9AEE400A22BC5 /* Resources */,
 			);
 			buildRules = (
@@ -154,12 +158,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF6A014322AB154C00370E0D /* Show Version on LaunchScreen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Show Version on LaunchScreen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Output version & build number to the APP_VERSION label on LaunchScreen.storyboard\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\n\nsed -i \"\" -e \"/userLabel=\\\"APP_VERSION\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"Version: $versionNumber ($buildNumber)\\\"/\" \"$PROJECT_DIR/$PROJECT_NAME/Storyboards/Base.lproj/LaunchScreen.storyboard\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF27E6BE22A9AEE400A22BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BF27E6C822A9AEE400A22BC5 /* MainViewController.swift in Sources */,
+				BF6A014222AB141E00370E0D /* Bundle.swift in Sources */,
 				BF27E6C622A9AEE400A22BC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +335,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HL4CAG6XK;
-				INFOPLIST_FILE = "$(SRCROOT)/Blog Example Version Info/Config, Assets, and Launch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Blog Example Version Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +354,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HL4CAG6XK;
-				INFOPLIST_FILE = "$(SRCROOT)/Blog Example Version Info/Config, Assets, and Launch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Blog Example Version Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
