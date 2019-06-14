@@ -17,12 +17,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwq-w6-2hD" userLabel="Info Button">
+                                <rect key="frame" x="376" y="60" width="22" height="22"/>
+                                <connections>
+                                    <action selector="infoButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zb5-b5-IXp"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click on the blue info button to see this app's version information." textAlignment="justified" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSV-cf-w5t">
+                                <rect key="frame" x="20" y="98" width="374" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="JvI-5g-VTV"/>
+                                    <constraint firstAttribute="width" constant="374" id="PVi-bZ-hhf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OSV-cf-w5t" firstAttribute="top" secondItem="rwq-w6-2hD" secondAttribute="bottom" constant="16" id="55w-RP-ncK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OSV-cf-w5t" secondAttribute="trailing" constant="20" id="G7K-BE-3kn"/>
+                            <constraint firstItem="OSV-cf-w5t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nh8-Z2-VRT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rwq-w6-2hD" secondAttribute="trailing" constant="16" id="UUZ-uC-zLo"/>
+                            <constraint firstItem="rwq-w6-2hD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Y5E-Bq-CM4"/>
+                            <constraint firstItem="OSV-cf-w5t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ayJ-2N-vyh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
