@@ -35,7 +35,7 @@
             BlueprintIdentifier = "BF27E6C122A9AEE400A22BC5"
             BuildableName = "Blog Example.app"
             BlueprintName = "Blog Example"
-            ReferencedContainer = "container:Blog Example.xcodeproj">
+            ReferencedContainer = "container:Blog App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "BF27E6C122A9AEE400A22BC5"
             BuildableName = "Blog Example.app"
             BlueprintName = "Blog Example"
-            ReferencedContainer = "container:Blog Example.xcodeproj">
+            ReferencedContainer = "container:Blog App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
