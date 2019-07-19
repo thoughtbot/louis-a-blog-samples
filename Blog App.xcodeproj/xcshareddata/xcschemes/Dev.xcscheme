@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF27E6C122A9AEE400A22BC5"
-            BuildableName = "Blog Example.app"
-            BlueprintName = "Blog Example"
+            BuildableName = "Blog App.app"
+            BlueprintName = "Blog App"
             ReferencedContainer = "container:Blog App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BF27E6C122A9AEE400A22BC5"
-            BuildableName = "Blog Example.app"
-            BlueprintName = "Blog Example"
+            BuildableName = "Blog App.app"
+            BlueprintName = "Blog App"
             ReferencedContainer = "container:Blog App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
