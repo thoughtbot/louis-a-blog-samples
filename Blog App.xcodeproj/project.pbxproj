@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF27E6C222A9AEE400A22BC5 /* Version Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Version Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF27E6C222A9AEE400A22BC5 /* Blog App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF27E6C522A9AEE400A22BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF27E6C722A9AEE400A22BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BF27E6CA22A9AEE400A22BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		BF27E6B922A9AEE400A22BC5 = {
 			isa = PBXGroup;
 			children = (
-				BF27E6C422A9AEE400A22BC5 /* Version Info */,
+				BF27E6C422A9AEE400A22BC5 /* Blog App */,
 				BF27E6C322A9AEE400A22BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		BF27E6C322A9AEE400A22BC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF27E6C222A9AEE400A22BC5 /* Version Info.app */,
+				BF27E6C222A9AEE400A22BC5 /* Blog App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF27E6C422A9AEE400A22BC5 /* Version Info */ = {
+		BF27E6C422A9AEE400A22BC5 /* Blog App */ = {
 			isa = PBXGroup;
 			children = (
 				BF6A014022AB141000370E0D /* Extensions */,
@@ -65,7 +65,7 @@
 				BF27E6CC22A9AEE600A22BC5 /* Assets.xcassets */,
 				BF27E6D122A9AEE600A22BC5 /* Info.plist */,
 			);
-			path = "Version Info";
+			path = "Blog App";
 			sourceTree = "<group>";
 		};
 		BF6A013B22AB0CBE00370E0D /* Storyboards */ = {
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF27E6C122A9AEE400A22BC5 /* Version Info */ = {
+		BF27E6C122A9AEE400A22BC5 /* Blog App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF27E6D422A9AEE600A22BC5 /* Build configuration list for PBXNativeTarget "Version Info" */;
+			buildConfigurationList = BF27E6D422A9AEE600A22BC5 /* Build configuration list for PBXNativeTarget "Blog App" */;
 			buildPhases = (
 				BF27E6BE22A9AEE400A22BC5 /* Sources */,
 				BF27E6BF22A9AEE400A22BC5 /* Frameworks */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = "Version Info";
-			productName = "Version Info";
-			productReference = BF27E6C222A9AEE400A22BC5 /* Version Info.app */;
+			name = "Blog App";
+			productName = "Blog App";
+			productReference = BF27E6C222A9AEE400A22BC5 /* Blog App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF27E6BD22A9AEE400A22BC5 /* Build configuration list for PBXProject "Version Info" */;
+			buildConfigurationList = BF27E6BD22A9AEE400A22BC5 /* Build configuration list for PBXProject "Blog App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF27E6C122A9AEE400A22BC5 /* Version Info */,
+				BF27E6C122A9AEE400A22BC5 /* Blog App */,
 			);
 		};
 /* End PBXProject section */
@@ -339,12 +339,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HL4CAG6XK;
-				INFOPLIST_FILE = "$(SRCROOT)/Version Info/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Blog App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Louis-Antonopoulos.Blog-Example-Version-Info";
+				PRODUCT_BUNDLE_IDENTIFIER = "thoughtbot.Blog-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -358,12 +358,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HL4CAG6XK;
-				INFOPLIST_FILE = "$(SRCROOT)/Version Info/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Blog App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Louis-Antonopoulos.Blog-Example-Version-Info";
+				PRODUCT_BUNDLE_IDENTIFIER = "thoughtbot.Blog-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF27E6BD22A9AEE400A22BC5 /* Build configuration list for PBXProject "Version Info" */ = {
+		BF27E6BD22A9AEE400A22BC5 /* Build configuration list for PBXProject "Blog App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF27E6D222A9AEE600A22BC5 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF27E6D422A9AEE600A22BC5 /* Build configuration list for PBXNativeTarget "Version Info" */ = {
+		BF27E6D422A9AEE600A22BC5 /* Build configuration list for PBXNativeTarget "Blog App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF27E6D522A9AEE600A22BC5 /* Debug */,
