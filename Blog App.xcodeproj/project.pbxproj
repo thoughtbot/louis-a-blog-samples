@@ -15,7 +15,6 @@
 		BF27E6D022A9AEE600A22BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6CE22A9AEE600A22BC5 /* LaunchScreen.storyboard */; };
 		BF6A014222AB141E00370E0D /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A014122AB141E00370E0D /* Bundle.swift */; };
 		BF7B349122E25C2C001560A3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B349022E25C2C001560A3 /* Log.swift */; };
-		BFB1157F22FE043A00971BFB /* PromiseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB1157E22FE043A00971BFB /* PromiseTest.swift */; };
 		BFF9C3AB22B4473E00665BFA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C3AA22B4473E00665BFA /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		BF27E6D122A9AEE600A22BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6A014122AB141E00370E0D /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		BF7B349022E25C2C001560A3 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		BFB1157E22FE043A00971BFB /* PromiseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseTest.swift; sourceTree = "<group>"; };
 		BFF9C3AA22B4473E00665BFA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +133,6 @@
 		BFB1157D22FE041A00971BFB /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				BFB1157E22FE043A00971BFB /* PromiseTest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			files = (
 				BF27E6C822A9AEE400A22BC5 /* MainViewController.swift in Sources */,
 				BF6A014222AB141E00370E0D /* Bundle.swift in Sources */,
-				BFB1157F22FE043A00971BFB /* PromiseTest.swift in Sources */,
 				BFF9C3AB22B4473E00665BFA /* UIViewController.swift in Sources */,
 				BF7B349122E25C2C001560A3 /* Log.swift in Sources */,
 				BF27E6C622A9AEE400A22BC5 /* AppDelegate.swift in Sources */,
