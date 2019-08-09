@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Blog App/Pods-Blog App-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
