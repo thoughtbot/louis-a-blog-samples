@@ -15,6 +15,8 @@
 		BF27E6D022A9AEE600A22BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6CE22A9AEE600A22BC5 /* LaunchScreen.storyboard */; };
 		BF6A014222AB141E00370E0D /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A014122AB141E00370E0D /* Bundle.swift */; };
 		BF7B349122E25C2C001560A3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7B349022E25C2C001560A3 /* Log.swift */; };
+		BFB1158222FE1BC800971BFB /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB1158122FE1BC800971BFB /* Version.swift */; };
+		BFB1158422FE1D7900971BFB /* UpdateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB1158322FE1D7900971BFB /* UpdateInfo.swift */; };
 		BFF9C3AB22B4473E00665BFA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF9C3AA22B4473E00665BFA /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		BF27E6D122A9AEE600A22BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6A014122AB141E00370E0D /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		BF7B349022E25C2C001560A3 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		BFB1158122FE1BC800971BFB /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		BFB1158322FE1D7900971BFB /* UpdateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInfo.swift; sourceTree = "<group>"; };
 		BFF9C3AA22B4473E00665BFA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,8 +137,18 @@
 		BFB1157D22FE041A00971BFB /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				BFB1158322FE1D7900971BFB /* UpdateInfo.swift */,
+				BFB1158022FE16C500971BFB /* Models */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		BFB1158022FE16C500971BFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFB1158122FE1BC800971BFB /* Version.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +289,8 @@
 				BF6A014222AB141E00370E0D /* Bundle.swift in Sources */,
 				BFF9C3AB22B4473E00665BFA /* UIViewController.swift in Sources */,
 				BF7B349122E25C2C001560A3 /* Log.swift in Sources */,
+				BFB1158222FE1BC800971BFB /* Version.swift in Sources */,
+				BFB1158422FE1D7900971BFB /* UpdateInfo.swift in Sources */,
 				BF27E6C622A9AEE400A22BC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
