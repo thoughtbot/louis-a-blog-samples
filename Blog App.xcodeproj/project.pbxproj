@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ADE85BF4629C75B88554CFBE /* Pods_Blog_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D79491BBF270C0494F6F5D4 /* Pods_Blog_App.framework */; };
+		BF05D44A230741E9003E104A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05D449230741E9003E104A /* Date.swift */; };
 		BF27E6C622A9AEE400A22BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF27E6C522A9AEE400A22BC5 /* AppDelegate.swift */; };
 		BF27E6C822A9AEE400A22BC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF27E6C722A9AEE400A22BC5 /* MainViewController.swift */; };
 		BF27E6CB22A9AEE400A22BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27E6C922A9AEE400A22BC5 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		000D160DC6355BD39451BDA2 /* Pods-Blog App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blog App.debug.xcconfig"; path = "Target Support Files/Pods-Blog App/Pods-Blog App.debug.xcconfig"; sourceTree = "<group>"; };
 		3D79491BBF270C0494F6F5D4 /* Pods_Blog_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blog_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F454FBF38F58BB4A2E3F48B /* Pods-Blog App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blog App.release.xcconfig"; path = "Target Support Files/Pods-Blog App/Pods-Blog App.release.xcconfig"; sourceTree = "<group>"; };
+		BF05D449230741E9003E104A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		BF27E6C222A9AEE400A22BC5 /* Blog App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF27E6C522A9AEE400A22BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF27E6C722A9AEE400A22BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BF6A014122AB141E00370E0D /* Bundle.swift */,
+				BF05D449230741E9003E104A /* Date.swift */,
 				BFF9C3AA22B4473E00665BFA /* UIViewController.swift */,
 			);
 			path = Extensions;
@@ -291,6 +294,7 @@
 				BF7B349122E25C2C001560A3 /* Log.swift in Sources */,
 				BFB1158222FE1BC800971BFB /* Version.swift in Sources */,
 				BFB1158422FE1D7900971BFB /* UpdateInfo.swift in Sources */,
+				BF05D44A230741E9003E104A /* Date.swift in Sources */,
 				BF27E6C622A9AEE400A22BC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
